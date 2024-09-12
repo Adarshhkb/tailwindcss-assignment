@@ -13,17 +13,67 @@
     </style>
   </head>
   <body>
-    <!-- Margin -->
+    1.Margin
     <!-- https://tailwindcss.com/docs/margin -->
+     <div class="container bg-black p-7">
+     <div class="my-7 text-amber-50">margin y-axis</div>
+     <div class="mx-6 text-cyan-300">margin x-axis</div>
+     <div class="mt-9 text-yellow-400">margin top</div>
+     <div class="m-8 text-lime-300">margin</div>
+    </div>
 
-    <!-- Arbitrary Spacing -->
+    2.Arbitrary Spacing
      <!-- https://tailwindcss.com/docs/border-spacing#arbitrary-values -->
+      <div class="container bg-black p-7">
+        <table class="border-separate border-spacing-2 border border-slate-500 ...">
+          <thead>
+            <tr>
+              <th class="border border-blue-300 text-rose-300">State</th>
+              <th class="border border-blue-300 text-rose-300">City</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-blue-300 text-rose-300">Indiana</td>
+              <td class="border border-blue-300 text-rose-300">Indianapolis</td>
+            </tr>
+            <tr>
+              <td class="border border-blue-300 text-rose-300">Ohio</td>
+              <td class="border border-blue-300 text-rose-300">Columbus</td>
+            </tr>
+            <tr>
+              <td class="border border-blue-300 text-rose-300">Michigan</td>
+              <td class="border border-blue-300 text-rose-300">Detroit</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-    <!-- Padding -->
+    3.Padding
     <!-- https://tailwindcss.com/docs/padding -->
+     <div class="container bg-black p-7">
+      <div class="px-9 text-orange-300">Padding x-axis</div>
+      <div class="pb-3 text-red-300">Padding bottom</div>
+      <div class="pr-1 text-lime-300">Padding right</div>
+      <div class="py-9 text-cyan-400">Padding y-axis</div>
+     </div>
 
     <!-- https://tailwindcss.com/docs/space -->
-    <!-- Space Between X -->
-    <!-- Space Between Y -->
+    4.Space Between X
+    <div class="container bg-black p-7">
+      <div class="flex space-x-4">
+        <div class="text-blue-500">01</div>
+        <div class="text-blue-500">02</div>
+        <div class="text-blue-500">03</div>
+      </div>
+    </div>
+    5.Space Between Y
+    <div class="container bg-black p-7">
+      <div class="flex flex-col space-y-4">
+        <div class="text-yellow-500">01</div>
+        <div class="text-yellow-500">02</div>
+        <div class="text-yellow-500">03</div>
+      </div>
+    </div>
   </body>
 </html>
